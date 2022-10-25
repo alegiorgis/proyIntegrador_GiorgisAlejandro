@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Alejandro Giorgis - Portfolio</title>
+
+  <!--font roboto regular-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+<!--Bootstrap5-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!--CSS-->
+<link rel="stylesheet" href="style.css">
+<!--scroll-->
+<script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+   <div class="container-fluid">
+      <a href="#" class="navbar-brand">PORTFOLIO</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#firstNavbar" aria-controls="firstNavbar" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+<!--el boton funciona, abre, pero no cierra-->
+    <div class="collapse navbar-collapse" id="firstNavbar">
+     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+       <li class="nav-item"><a class="nav-link" href="#perfil">Perfil</a></li>
+       <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>       
+       <li class="nav-item"><a class="nav-link" href="#educacion">Educacion y Distinciones</a></li>
+       <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+       <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+     </ul>
+     <form class="d-flex">
+       <button class="btn btn-outline-success" type="submit">Login</button>
+     </form>
+     </div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="header-content-left">
+          <h2>HOLA! SOY</h2>
+          <h1 class="display-4">ALEJANDRO GIORGIS</h1>        
+          <h3 class="mb">INGENIERO CIVIL - TECNICO METAL MECANICO - DESARROLLADOR</h3>
+          
+            <!--<div class="blockquote-custom-icon bg-warning">DISEÑADOR - TECNICO - DESARROLLADOR</div> -->
+          </div>
+        </div> 
+        <div class="col-md-6">
+          <div class="header-content-right">
+          <img src="img/cuarenkevin2.png" style="width: 100%;" alt="Foto Alejandro Giorgis">
+          </div>
+        </div>             
+      </div>
+    </div>
+</header>
+
+<!--perfil-->
+<section id="perfil">
+  <div class="container-fluid">
+    <h1 class="light">Perfil</h1>
+      <p class="h5">Hola! Soy Alejandro, ingeniero civil, tecnico metal mecanico y desarrollador. Estoy dando mis primeros pasos como desarrollador y todos los días estoy aprendiendo algo nuevo. Considero que los trabajos de equipos multidisciplinarios son de vital importancia para un crecimiento profesional y personal. Cuento con mas de 10 años de experiencia coordinando equipos de diseño y de producción. Además cuento con 8 años de experiencia en la docencia universitaria.</p>
+      <br>
+  <button class="btn btn-secondary" onclick="onEdit()">Editar</button>
+</div>
+</section>
+<br>
+<br>
+<!--exp-->
+<div class="container">
+<section id="experiencia">
+  <h1>Experiencia</h1>
+  <div class="container">
+    <div class="row">
+        <div class="col-2">
+            <img src="img/logo sumapack.jpg" class="img-fluid" alt="as">            
+        </div>
+        <div class="col">
+            <h2>SUMAPACK</h2>
+            <p class="h4">Ingeniero Civl y Project Manager</p>
+            <p class="h5">Modelado de Información de construcción (BIM)</p>
+            <p class="h5">Agosto 2015 - Actualidad</p>
+        </div>
+    </div>
+    </div>
+<br>
+    <div class="container">
+      <div class="row">
+          <div class="col-2">
+              <img src="img/uba.jpg" class="img-fluid" alt="uba">            
+          </div>
+          <div class="col">
+              <h2>FADU UBA</h2>
+              <p class="h4">Docente de Grado</p>
+              <p class="h5">Planificación del año léctivo y participación activa de correcciones.</p>
+              <p class="h5">Agosto 2013 - Actualidad</p>
+          </div>
+      </div>
+      </div>
+<br>
+      <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="img/axyz.jpg" class="img-fluid" alt="uba">            
+            </div>
+            <div class="col">
+                <h2>ESTUDIO AXYZ</h2>
+                <p class="h4">Socio Fundador - Estudio de Ingenieria</p>
+                <p class="h5">Consultoría de Arquitectura e Ingenieria</p>
+                <p class="h5">2013 - 2015</p>
+            </div>
+        </div>
+        <br>
+        <button class="btn btn-secondary" onclick="onEdit()">Editar</button>
+        </div>
+</section>
+</div>
+
+<!--educacion y distinciones-->
+<div class="container">
+<section id="educacion">
+    <h1>Educacion</h1>
+    <br>
+    <div class="container">
+      <div class="row">
+          <div class="col-2">
+              <img src="img/logo argprog.png" class="img-fluid" alt="uba">            
+          </div>
+          <div class="col">
+              <h2>DESARROLLO WEB FULL STACK</h2>
+              <p class="h4">ARGENTINA PROGRAMA - MINISTERIO DE DESARROLLO PRODUCTIVO</p>
+              <p>2021 - 2022</p>
+          </div>
+      </div>
+      </div>
+     <br>
+      <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="img/uba.jpg" class="img-fluid" alt="uba">            
+            </div>
+            <div class="col">
+                <h2>DISEÑO DE JUEGOS, JUGUETES E INTERFACES LUDICAS</h2>
+                <p class="h4">POSTGRADO - FADU UBA</p>
+                <p>2017</p>
+            </div>
+        </div>
+        </div>
+<br>
+        <div class="container">
+          <div class="row">
+              <div class="col-2">
+                  <img src="img/uba.jpg" class="img-fluid" alt="uba">            
+              </div>
+              <div class="col">
+                  <h2>INGENIRIA</h2>
+                  <p class="h4">GRADO - FADU UBA</p>
+                  <p>2015</p>
+              </div>
+          </div>
+          </div>
+<br>
+          <div class="container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="img/escuela.png" class="img-fluid" alt="uba">            
+                </div>
+                <div class="col">
+                    <h2>TECNICO ELECTROMECANICO BILINGÜE</h2>
+                    <p class="h4">INSTITUTO TECNOLOGICO PHILIPS ARGENTINA</p>
+                    <p>2006</p>
+                </div>
+            </div>
+            </div>
+<br>
+            <div class="container">
+              <div class="row">
+                  <div class="col-2">
+                      <img src="img/vasco.jpg" class="img-fluid" alt="uba">            
+                  </div>
+                  <div class="col">
+                      <h2>PROGRAMACION CONTROL NUMERICO COMPUTARIZADO</h2>
+                      <p class="h4">INSTITUTO VASCO ARGENTINO</p>
+                      <p>2005</p>
+                  </div>
+              </div>
+              </div>
+              <br>
+  <button class="btn btn-secondary" onclick="onEdit()">Editar</button>
+  <br>
+</section>
+</div>
+<br>
+<br>
+
+<!--skills-->
+<div class="container">
+  <section id="skills">
+    <h1>Skills</h1>
+    <div class="container">
+      <div class="row">
+          <div class="col-2">
+              <h2>HARD SKILLS</h2>            
+          </div>
+          <div class="col">
+              <div class="progress-bar-component">
+                <div class="col-md-3">Skill label</div>
+                <div class="progress col-md-9">
+                  <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="10" 
+                  aria-valuemin="0" aria-valuemax="100" style="width: 10%"></div>
+                </div>
+                <br>
+              </div>
+              <p class="h4">Paquete ADOBE</p>
+              <p>Nivel: Intermedio - Avanzado</p>
+              <p class="h4">HTML5</p>
+              <p>Nivel Basico</p>
+              <p class="h4">CSS + Bootstrap</p>
+              <p>Nivel Basico</p>
+              <p class="h4">Javascript</p>
+              <p>Nivel Basico</p>
+              <p class="h4">Typescript</p>
+              <p>Nivel Basico</p>
+              <p class="h4">Angular</p>
+              <p>Nivel Basico</p>
+              <p class="h4">MySQL</p>
+              <p>Nivel Basico</p>
+              <p class="h4">Java</p>
+              <p>Nivel Basico</p>
+              <p class="h4">SpringBoot</p>
+              <p>Nivel Basico</p>
+              <p class="h4">Ruby</p>
+              <p>Nivel Basico</p>
+          </div>
+      </div>
+    </div>
+
+        <div class="container">
+          <div class="row">
+              <div class="col-2">
+                  <h2>SOFT SKILLS</h2>            
+              </div>
+              <div class="col">
+                <div class="progress-bar-component">
+                  <div class="col-md-3">Skill label</div>
+                  <div class="progress col-md-9">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" 
+                    aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                  </div>
+                  <br>
+                  <p class="h4">Trabajo en equipos multidisciplinarios</p>
+                  <p>Trabajo colaborativo con personas de distintas disciplinas para ampliar la vision del proyecto</p>
+                  <p class="h4">Coordinacion y Liderazgo</p>
+                  <p>Trabajo colaborativo con personas de distintas disciplinas para ampliar la vision del proyecto</p>
+                  <p class="h4">Autonomia</p>
+                  <p>Trabajo colaborativo con personas de distintas disciplinas para ampliar la vision del proyecto</p>
+                  <p class="h4">Comunicacion</p>
+                  <p>Trabajo colaborativo con personas de distintas disciplinas para ampliar la vision del proyecto</p>
+                  <p class="h4">Compromiso</p>
+                  <p>Trabajo colaborativo con personas de distintas disciplinas para ampliar la vision del proyecto</p>
+              </div>
+          </div>
+          </div>
+  </section>
+  </div>
+
+
+<!--contacto-->
+<section id="contacto">
+  <div class="container-fluid">
+    <h1 class="light">Contacto</h1>
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item"><a class="nav-link" href="cellphone">Telefono</a></li>
+      <li class="nav-item"><a class="nav-link" href="mailto: alegiorgis22@gmail.com">eMail</a></li>       
+      <li class="nav-item"><a class="nav-link" href="https://ar.linkedin.com/in/alejandrogiorgis">linkedin</a></li>
+      <li class="nav-item"><a class="nav-link" href="https://github.com/alegiorgis">gitHub</a></li>
+      <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/">instagram</a></li>
+    </ul>
+    <br>
+  <button class="btn btn-secondary" onclick="onEdit()">Editar</button>
+</div>
+</section>
+<br>
+<br>
+
+<footer>
+  <div class="card text-center">
+  <div class="card-body bg-dark">
+    <p class="card-text">Portfolio Giorgis Alejandro @2022 para el programa ARGENTINA PROGRAMA / MINISTERIO DE DESAROLLO</p>
+    <a href="#" class="btn btn-secondary">Back to top</a>
+  </div>
+</div>
+</footer>
+
+<!--scripts BS5-->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+</body>
+</html>
